@@ -98,5 +98,4 @@ public class TripController {
 
         return ResponseEntity.ok(participantList);
     }
-
 }
