@@ -1,4 +1,4 @@
-package com.rocketseat.planner.activities;
+package com.rocketseat.planner.activity;
 
 import com.rocketseat.planner.trip.Trip;
 import jakarta.persistence.*;
@@ -16,7 +16,7 @@ import java.util.UUID;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Activities {
+public class Activity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
